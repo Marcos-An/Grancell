@@ -7,9 +7,9 @@ export default function Servicos() {
   return (
     <div>
       <BannerTitle title="NOSSOS SERVIÇOS" />
+      <a id="celulares" />
       <div className={styles.phones}>
         <div className={styles.image} />
-        <a id="celulares" />
         <div className={styles.container}>
           <Title title="Celulares" color="black" size="small" />
 
