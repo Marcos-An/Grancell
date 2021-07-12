@@ -1,7 +1,7 @@
 import styles from "./genericButton.module.scss";
 import Image from "next/image";
 
-export default function GenericButton({ onClick, text, whatsApp = null, color = "main", type = "button" }) {
+export default function GenericButton({ onClick, text, whatsApp = null, color = "main", type = 'button' }) {
   return (
     <button className={styles[`genericButton-${color}`]} type={type} onClick={onClick}>
       {whatsApp && (
