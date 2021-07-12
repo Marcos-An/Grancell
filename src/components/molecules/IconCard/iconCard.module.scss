@@ -1,0 +1,17 @@
+.iconCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+
+  .iconDetail {
+    height: 2.5rem;
+    width: 2.5rem;
+    right: -3px;
+    bottom: -2px;
+    background: rgba(196, 196, 196, 0.41);
+    border-radius: 40px;
+    position: absolute;
+  }
+}

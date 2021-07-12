@@ -1,0 +1,39 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  label {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  textarea {
+    border: 1px solid #6b6b6b;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 100%;
+  }
+}
+
+.inputRequired {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+
+  label {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+
+    &:after {
+      color: red;
+      content: " *";
+    }
+  }
+
+  textarea {
+    border: 1px solid #6b6b6b;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+.preWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  padding: 5rem 10vw;
+  width: 100%;
+
+  .genericalText {
+    margin-bottom: 3rem;
+    .contactBox {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  .formWrapper {
+    margin-bottom: 7rem;
+  }
+
+  .twoInputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .preWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    padding: 3rem 10vw;
+
+    .genericalText {
+      width: 70%;
+      margin-bottom: 3rem;
+      .contactBox {
+        display: flex;
+        align-items: center;
+
+        p {
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    .formWrapper {
+      width: 74%;
+      margin-bottom: 7rem;
+    }
+  }
+}

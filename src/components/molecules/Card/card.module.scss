@@ -1,0 +1,17 @@
+.card {
+  padding: 2rem 3rem;
+  border-radius: 9px;
+  background-color: var(--main);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+
+  &:hover {
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+  }
+}

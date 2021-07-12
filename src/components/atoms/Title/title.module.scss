@@ -1,0 +1,32 @@
+.title-large-black {
+  font-size: 3.5rem;
+  font-weight: 700;
+
+  &:before {
+    color: var(--main);
+    content: "GRANCELL";
+  }
+}
+
+.title-large-white {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.title-medium-black {
+  font-size: 2.7rem;
+}
+
+.title-medium-white {
+  font-size: 2.7rem;
+  color: white;
+}
+
+.title-small-black {
+  font-size: 2rem;
+}
+
+.title-small-white {
+  font-size: 2rem;
+  color: white;
+}

@@ -1,0 +1,61 @@
+.aboutGrancell {
+  margin: 15rem 0rem;
+  padding: 0rem 10vw;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  .textAboutGrancell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+  }
+}
+.container {
+  padding: 5rem 10vw;
+  background-color: #efefef;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    width: 45%;
+  }
+}
+.extended {
+  padding: 5rem 10vw;
+  text-align: center;
+
+  .item {
+    h1 {
+      color: var(--main);
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .aboutGrancell {
+    justify-items: center;
+    grid-gap: 10rem;
+    margin: 10rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+
+    .textAboutGrancell {
+      text-align: center;
+      max-width: 100%;
+      .readMore {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .container {
+    p {
+      width: 100%;
+    }
+  }
+}

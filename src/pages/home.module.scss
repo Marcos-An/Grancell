@@ -1,0 +1,126 @@
+.firstSection {
+  padding: 7rem 10vw;
+  background-image: linear-gradient(
+      91.12deg,
+      rgba(0, 0, 0, 0.65) 1.79%,
+      rgba(167, 167, 167, 0.1105) 110.95%
+    ),
+    url("/first-section-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: 55rem;
+
+  .title {
+    margin-bottom: 3rem;
+  }
+  h1 {
+    font-size: 4rem;
+    color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #d3d3d3;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+
+  .buttonsContainer {
+    margin-top: 6rem;
+    display: flex;
+  }
+}
+
+.cardsSection {
+  z-index: 1;
+  margin-top: -7rem;
+  padding: 0rem 10vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5rem;
+}
+
+.aboutGrancell {
+  margin: 15rem 0rem;
+  padding: 0rem 10vw;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  .textAboutGrancell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+  }
+}
+
+.contact {
+  padding: 15rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: var(--main);
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  .firstSection {
+    padding: 7rem 10vw;
+    background-position: center;
+    height: 60rem;
+
+    .title {
+      margin-bottom: 3rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    .buttonsContainer {
+      margin-top: 6rem;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .cardsSection {
+    z-index: 1;
+    margin-top: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .aboutGrancell {
+    justify-items: center;
+    grid-gap: 10rem;
+    margin: 10rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+
+    .textAboutGrancell {
+      text-align: center;
+      max-width: 100%;
+      .readMore {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

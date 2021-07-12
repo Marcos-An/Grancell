@@ -1,0 +1,42 @@
+.menuItemHeader {
+  font-size: 1.5rem;
+  padding: 2rem;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--main);
+  }
+}
+
+.menuItemFooter {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--main);
+  }
+}
+
+.menuItemActiveHeader {
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: var(--main);
+
+  &:hover {
+    cursor: pointer;
+    color: var(--main);
+  }
+}
+
+.menuItemActiveFooter {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  color: var(--main);
+
+  &:hover {
+    cursor: pointer;
+    color: var(--main);
+  }
+}

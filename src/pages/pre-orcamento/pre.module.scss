@@ -1,0 +1,43 @@
+.preWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .genericalText {
+    padding: 5rem 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      width: 60%;
+    }
+  }
+
+  .formWrapper {
+    width: 40%;
+    margin-bottom: 7rem;
+  }
+
+  .twoInputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .preWrapper {
+    .genericalText {
+      p {
+        width: 100%;
+      }
+    }
+
+    .formWrapper {
+      width: 80%;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.phones {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.7rem;
+  li {
+    margin-bottom: 2rem;
+  }
+  .image {
+    background-image: url("/cell-repair.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container {
+    padding: 5rem;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: -2rem;
+    grid-gap: 3rem;
+  }
+}
+
+.computer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.7rem;
+  li {
+    margin-bottom: 2rem;
+  }
+  .image {
+    background-image: url("/computer-repair.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container {
+    padding: 5rem;
+  }
+
+  .content {
+    margin-left: -2rem;
+    grid-gap: 3rem;
+  }
+}
+
+.extended {
+  padding: 10rem 10vw;
+  text-align: center;
+  background-color: #efefef;
+
+  .item {
+    h1 {
+      color: var(--main);
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .phones {
+    grid-template-columns: 1fr;
+    font-size: 1.3rem;
+
+    .image {
+      background-attachment: fixed;
+      height: 25rem;
+    }
+  }
+
+  .computer {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.3rem;
+
+    .image {
+      background-attachment: fixed;
+      height: 25rem;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.genericButton-main {
+  background: var(--main);
+  padding: 0rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .whatsAppIcon {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    filter: brightness(1.2);
+  }
+}
+
+.genericButton-blue {
+  background: #3442bf;
+  padding: 0rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .whatsAppIcon {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    filter: brightness(1.2);
+  }
+}
+.genericButton-green {
+  background: #27b803;
+  padding: 0rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .whatsAppIcon {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    filter: brightness(1.2);
+  }
+}

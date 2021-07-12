@@ -1,0 +1,17 @@
+.header {
+  background: var(--white);
+  padding: 2rem 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  img {
+    height: 4rem;
+    margin-right: 6rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
