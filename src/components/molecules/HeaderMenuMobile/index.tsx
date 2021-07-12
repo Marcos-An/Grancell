@@ -25,35 +25,30 @@ export default function HeaderMenuMobile() {
               url="/"
               activeItem={activeItem}
               color='white'
-              onClick={() => redirectClose("Inicio")}
             />
             <MenuItem
               item="Nossa história"
               url="/nossa-historia"
               activeItem={activeItem}
               color='white'
-              onClick={() => redirectClose("Nossa história")}
             />
             <MenuItem
               item="Serviços"
               url="/servicos"
               activeItem={activeItem}
               color='white'
-              onClick={() => redirectClose("Serviços")}
             />
             <MenuItem
               item="Pré orçamento"
               url="/pre-orcamento"
               activeItem={activeItem}
               color='white'
-              onClick={() => redirectClose("Pré orçamento")}
             />
             <MenuItem
               item="Contato"
               url="/contato"
               activeItem={activeItem}
               color='white'
-              onClick={() => redirectClose("Contato")}
             />
           </ul>
         </div>
