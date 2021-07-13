@@ -71,7 +71,9 @@ export default function Contact() {
           </div>
           <div className={styles.contactBox}>
             <Icon iconName="mail" color="#FC4F08" size="20" />
-            <Text text="grancell@grancell.com.br" />
+            <a href="mailto:grancell@grancell.com.br">
+              <Text text="grancell@grancell.com.br" />
+            </a>
           </div>
           <div className={styles.contactBox}>
             <Icon iconName="phone" color="#FC4F08" size="20" />

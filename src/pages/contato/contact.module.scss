@@ -41,7 +41,14 @@
       .contactBox {
         display: flex;
         align-items: center;
-
+        a {
+          &:hover {
+            p {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+          }
+        }
         p {
           margin-left: 2rem;
         }

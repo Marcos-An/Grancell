@@ -14,7 +14,9 @@ export default function Footer() {
         </div>
         <div className={styles.contactBox}>
           <Icon iconName="mail" color="#FC4F08" />
-          <Text text="grancell@grancell.com.br" color="white" />
+          <a href="mailto:grancell@grancell.com.br">
+            <Text text="grancell@grancell.com.br" color="white" />
+          </a>
         </div>
       </div>
       <div className={styles.menuContainer}>
@@ -28,6 +30,15 @@ export default function Footer() {
           text="Rua Coronel Fernando Prestes, 957
                 C.E.P. 09020-110 Santo André-S.P"
           color="white" />
+      </div>
+
+
+      <div className={styles.byDinamic}>
+        <a href="https://dinamicweb.com.br//" target="_blank">
+          <Text
+            text="By Dinamic Web - Agencia de Marketing Digital e Desenvolvimento de Websites"
+            color="white" />
+        </a>
       </div>
     </div>
   );
