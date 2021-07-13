@@ -27,7 +27,13 @@ export default function Home() {
           <h3>COM A MAIS ALTA QUALIDADE E PROFISSIONALISMO.</h3>
         </div>
         <div className={styles.buttonsContainer}>
-          <GenericButton onClick={() => reouterPush('#')} text="Chamar no WhatsApp" whatsApp />
+          <GenericButton
+            onClick={() =>
+              reouterPush('https://api.whatsapp.com/send?phone=5511940386567')
+            }
+            text="Chamar no WhatsApp"
+            whatsApp
+          />
           <TransparentButton onClick={() => reouterPush('/nossa-historia')} text="Conheça a empresa" />
         </div>
       </div>
@@ -68,7 +74,7 @@ export default function Home() {
           />
           <Text
             size="large"
-            text="Temos serviço de coleta, consertamos no menor espaço de tempo possível, com a mail  alta qualidade e profissionalismo."
+            text="Temos serviço de coleta, consertamos no menor espaço de tempo possível, com a mais alta qualidade e profissionalismo."
           />
           <br />
           <br />

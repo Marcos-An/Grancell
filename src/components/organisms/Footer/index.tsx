@@ -10,7 +10,7 @@ export default function Footer() {
         <img src="/logo.png" alt="logo" />
         <div className={styles.contactBox}>
           <Icon iconName="phone" color="#FC4F08" />
-          <Text text="(11) 4994-0860" color="white" />
+          <Text text="(11) 4992-5597" color="white" />
         </div>
         <div className={styles.contactBox}>
           <Icon iconName="mail" color="#FC4F08" />

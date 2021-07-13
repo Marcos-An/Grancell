@@ -22,7 +22,7 @@ export default function History() {
           />
           <Text
             size="large"
-            text="Temos serviço de coleta, consertamos no menor espaço de tempo possível, com a mail  alta qualidade e profissionalismo."
+            text="Temos serviço de coleta, consertamos no menor espaço de tempo possível, com a mais alta qualidade e profissionalismo."
           />
 
           <Text
@@ -34,7 +34,7 @@ export default function History() {
       <div className={styles.container} >
         <Text
           size="large"
-          text="Somos credenciados vivo, prestando assistência técnica especializada de todas as marcas no segmento de celulares, inclusive apple. No segmento de informática atendemos notebooks, cpus, monitores."
+          text="Somos credenciados vivo, prestamos assistência técnica especializada a todas as marcas no segmento de celulares. No segmento de informática atendemos notebooks, cpus, monitores e mais"
         />
       </div>
       <div className={styles.extended} >

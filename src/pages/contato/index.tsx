@@ -75,7 +75,7 @@ export default function Contact() {
           </div>
           <div className={styles.contactBox}>
             <Icon iconName="phone" color="#FC4F08" size="20" />
-            <Text text="(11) 4994-0860" />
+            <Text text="(11) 4992-5597" />
           </div>
         </div>
         <form onSubmit={sendEmail} className={styles.formWrapper}>
