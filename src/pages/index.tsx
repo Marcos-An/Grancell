@@ -20,7 +20,7 @@ export default function Home() {
       <div className={styles.firstSection}>
         <div className={styles.title}>
           <h1>HÁ MAIS DE 20 ANOS ATENDENDO</h1>
-          <h1>TODA A REGIÃO DO ABCD</h1>
+          <h1>TODA A REGIÃO DO ABC</h1>
         </div>
         <div>
           <h3>CONSERTAMOS NO MENOR ESPAÇO DE TEMPO POSSÍVEL,</h3>
@@ -64,13 +64,13 @@ export default function Home() {
         <GrancellPhoto />
         <div className={styles.textAboutGrancell}>
           <Title
-            title=" COM O MELHOR ATENDIMENTO DO ABCD"
+            title=" COM O MELHOR ATENDIMENTO DO ABC"
             color="black"
             size='large'
           />
           <Text
             size="large"
-            text="A Grancell atua no segmento de assistência técnica em telefonia celular e informática, há mais de 13 anos atendendo toda a região do abcd."
+            text="A Grancell atua no segmento de assistência técnica em telefonia celular e informática, há mais de 13 anos atendendo toda a região do abc."
           />
           <Text
             size="large"
@@ -89,7 +89,7 @@ export default function Home() {
       </div>
       <div className={styles.contact}>
         <Title
-          title=" NÓS PODEMOS RESOLVER OS PROBLEMAS"
+          title="PODEMOS RESOLVER OS PROBLEMAS"
           color="white"
           size='large'
         />

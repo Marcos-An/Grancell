@@ -12,13 +12,13 @@ export default function History() {
         <GrancellPhoto />
         <div className={styles.textAboutGrancell}>
           <Title
-            title=" COM O MELHOR ATENDIMENTO DO ABCD"
+            title=" COM O MELHOR ATENDIMENTO DO ABC"
             color="black"
             size='large'
           />
           <Text
             size="large"
-            text="A Grancell atua no segmento de assistência técnica em telefonia celular e informática, há mais de 13 anos atendendo toda a região do abcd."
+            text="A Grancell atua no segmento de assistência técnica em telefonia celular e informática, há mais de 13 anos atendendo toda a região do abc."
           />
           <Text
             size="large"
@@ -27,7 +27,7 @@ export default function History() {
 
           <Text
             size="large"
-            text="capacitados, frequentemente reciclados pelos próprios fabricantes, tal fator garante a conduta adequada para cada tipo de conserto."
+            text="Nossos profissionais são capacitados, frequentemente treinados pelos próprios fabricantes, tal fator garante a conduta adequada para cada tipo de conserto."
           />
         </div>
       </div>

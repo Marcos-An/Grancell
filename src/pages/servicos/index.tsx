@@ -58,7 +58,7 @@ export default function Servicos() {
               <li>Reballing (troca), reflow (ressolda) de chip set de vídeo</li>
               <li>Reparo de flat-cables, fonte externa, dc-inverter, cooler, auto- falante teclado e dobradiça</li>
               <li>Reparo ou troca de conector de energia da placa mãe</li>
-              <li>Upgrade de memoria, disco rígido e processador</li>
+              <li>Upgrade de memória, disco rígido e processador</li>
               <li>Troca de tela-LCD,  LED e teclado</li>
               <li>Fonte e bateria</li>
             </ul>
