@@ -41,7 +41,7 @@ export default function Contact() {
   const sendEmail = async (event) => {
     event.preventDefault()
     if (entryValidate()) {
-      axios.post('https://grancell-agr8po1fu-marcos-an.vercel.app//api/sendContact', { email: email })
+      axios.post('https://grancell.vercel.app/api/sendContact', { email: email })
       toast.success("Email enviado, logo será respondido!", {
         position: toast.POSITION.BOTTOM_LEFT
       });
