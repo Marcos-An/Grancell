@@ -4,8 +4,10 @@ const mail = require('@sendgrid/mail')
 mail.setApiKey(process.env.SEND_API_KEY)
 
 
+
+
 export default (request: NowRequest, response: NowResponse) => {
-   response.setHeader('Access-Control-Allow-Credentials', <any>true)
+   response.setHeader('Access-Control-Allow-Credentials', 'true')
   response.setHeader('Access-Control-Allow-Origin', '*')
   // another common pattern
   // response.setHeader('Access-Control-Allow-Origin', req.headers.origin);
