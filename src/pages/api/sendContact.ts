@@ -4,7 +4,7 @@ const mail = require('@sendgrid/mail')
 mail.setApiKey(process.env.SEND_API_KEY)
 
 
-export default async (request: NowRequest, response: NowResponse) => {
+export default (request: NowRequest, response: NowResponse) => {
 
    const {name,phone,email, description  } = request.body.email;
 
