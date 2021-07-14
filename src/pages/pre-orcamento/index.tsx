@@ -47,7 +47,7 @@ export default function Pre() {
   const sendEmail = async (event) => {
     event.preventDefault()
     if (entryValidate()) {
-      axios.post('https://grancell-2f63j9ipg-marcos-an.vercel.app/api/sendPreEstimate', { email: email })
+      axios.post('/api/sendPreEstimate', { email: email })
       toast.success("Pré orçamento enviado, logo será respondido!", {
         position: toast.POSITION.BOTTOM_LEFT
       });
