@@ -5,7 +5,16 @@ mail.setApiKey(process.env.SEND_API_KEY)
 
 
 export default (request: NowRequest, response: NowResponse) => {
-   
+   response.setHeader('Access-Control-Allow-Credentials', <any>true)
+  response.setHeader('Access-Control-Allow-Origin', '*')
+  // another common pattern
+  // response.setHeader('Access-Control-Allow-Origin', req.headers.origin);
+  response.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT')
+  response.setHeader(
+    'Access-Control-Allow-Headers',
+    'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
+  )
+
    const {name,phone,email, description  } = request.body.email;
 
 
